@@ -5,9 +5,7 @@
 <template>
   <div>
     <nav>
-      Home
       <router-link to="/">Home</router-link>
-      <router-link to="/HelloWorld">HelloWorld</router-link>
     </nav>
     <RouterView />
   </div>
@@ -23,5 +21,4 @@ nav
   font-size: 20px;
   font-weight: 400;
 }
-
 </style>
